@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 using Novaula.Data;
+using Novaula.models;
 
 namespace Pivete.controlles 
 {
@@ -14,6 +15,20 @@ namespace Pivete.controlles
         {
             _appDbContext = appDbContext;
             
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Addpivete(pivete pivete){
+
+            if (pivete == null)
+            {
+                return BadRequest("Não deu boa...");
+            }
+
+            _appDbContext.pivetes.Add(pivete);
+            await _appDbContext.SaveChangesAsync();
+
+            return StatusCode(201, pivete);
         }
     }
 }
