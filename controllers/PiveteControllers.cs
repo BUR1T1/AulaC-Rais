@@ -1,4 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using Novaula.Data;
 using Novaula.models;
 
@@ -18,7 +20,7 @@ namespace Pivete.controlles
         }
 
         [HttpPost]
-        public async Task<IActionResult> Addpivete(pivete pivete){
+        public async Task<IActionResult> Addpivete(Novaula.models.Pivete pivete){
 
             if (pivete == null)
             {
@@ -30,5 +32,16 @@ namespace Pivete.controlles
 
             return StatusCode(201, pivete);
         }
+
+        [HttpGet]
+        public async Task<ActionResult<IEnumerable<Pivetecontrollers>>> GetPivete()
+        {
+
+            var Pivete = await _appDbContext.pivetes.ToListAsync();
+
+            return Ok(Pivete);
+
+        }
+
     }
 }

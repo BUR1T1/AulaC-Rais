@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\OTAVIOCAETANORIBEIRO\\NovaAula\\NovaAula.csproj": {}
+    "C:\\Users\\OTAVIOCAETANORIBEIRO\\.vscode\\AulaC-Rais\\NovaAula.csproj": {}
   },
   "projects": {
-    "C:\\Users\\OTAVIOCAETANORIBEIRO\\NovaAula\\NovaAula.csproj": {
+    "C:\\Users\\OTAVIOCAETANORIBEIRO\\.vscode\\AulaC-Rais\\NovaAula.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\OTAVIOCAETANORIBEIRO\\NovaAula\\NovaAula.csproj",
+        "projectUniqueName": "C:\\Users\\OTAVIOCAETANORIBEIRO\\.vscode\\AulaC-Rais\\NovaAula.csproj",
         "projectName": "NovaAula",
-        "projectPath": "C:\\Users\\OTAVIOCAETANORIBEIRO\\NovaAula\\NovaAula.csproj",
+        "projectPath": "C:\\Users\\OTAVIOCAETANORIBEIRO\\.vscode\\AulaC-Rais\\NovaAula.csproj",
         "packagesPath": "C:\\Users\\OTAVIOCAETANORIBEIRO\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\OTAVIOCAETANORIBEIRO\\NovaAula\\obj\\",
+        "outputPath": "C:\\Users\\OTAVIOCAETANORIBEIRO\\.vscode\\AulaC-Rais\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -61,7 +61,7 @@
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[6.4.0, )"
+              "version": "[7.0.0, )"
             }
           },
           "imports": [

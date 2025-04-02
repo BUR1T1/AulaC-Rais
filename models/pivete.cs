@@ -1,11 +1,12 @@
 namespace Novaula.models
 {
     
-    public class pivete
+    public class Pivete
     {
         public int Id{get; set;}
         public string? Nome{get; set;}
-        public string? MaisTxt{get; set;}
+        public string? problema{get; set;}
+        public int? idade{get; set;}
 
 
     }
