@@ -1,8 +1,8 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using Novaula.Data;
 using Novaula.models;
+
 
 namespace Pivete.controlles 
 {
@@ -42,6 +42,39 @@ namespace Pivete.controlles
             return Ok(Pivete);
 
         }
+
+        [HttpGet("{id}")]
+        public async Task<ActionResult<Pivetecontrollers>> GetPivete(int id){
+
+            var Pivete = await _appDbContext.pivetes.FindAsync(id);
+
+            if (Pivete == null)
+            {
+                return NotFound("Não tem nada aqui fela");
+            }
+
+            return Ok(Pivete);
+        }
+
+
+        [HttpPut("{id}")]
+        public async Task<IActionResult> UpdatePivete(int id, [FromBody] Pivetecontrollers piveteAtualizado){
+
+            var piveteVivo = await _appDbContext.pivetes.FindAsync(id);
+
+            if (piveteVivo == null)
+            {
+                return NotFound("Não tem sa porra...");
+            }
+
+            _appDbContext.Entry(piveteVivo).CurrentValues.SetValues(piveteAtualizado);
+
+            await _appDbContext.SaveChangesAsync();
+
+            return StatusCode(201, piveteVivo);
+        }
+
+
 
     }
 }
