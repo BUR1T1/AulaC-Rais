@@ -1,4 +1,5 @@
 using Microsoft.EntityFrameworkCore;
+using NovaAula.models;
 
 namespace Novaula.Data
 {
@@ -6,6 +7,6 @@ namespace Novaula.Data
     {
         public AppDbContext(DbContextOptions options) : base (options) {}
 
-        public DbSet<models.Pivete> pivetes {get; set;}
+        public DbSet<Paciente> Pacientes {get; set;}
     }
 }
