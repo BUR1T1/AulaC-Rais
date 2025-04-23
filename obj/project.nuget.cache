@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hMUWR/iI73v3zYcBthsdVVdHjc6rFa97QDGJaT0Mr0NOuuwbWqKfkr/HOQ7DCMzmP0QROwh7L/+h6NXyvvolMQ==",
+  "dgSpecHash": "Tq1ixDCKKSpl/Uau5VMzPIaxjWtzjQIPcIEv6VR696lcF170SxttWe9Kg44oIgK/tkOn+86GO+dX8qHzVzbl/g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\OTAVIOCAETANORIBEIRO\\.vscode\\AulaC-Rais\\NovaAula.csproj",
+  "projectFilePath": "C:\\Users\\OTAVIOCAETANORIBEIRO\\AulaC-Rais\\NovaAula.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\OTAVIOCAETANORIBEIRO\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\OTAVIOCAETANORIBEIRO\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.7\\microsoft.entityframeworkcore.7.0.7.nupkg.sha512",

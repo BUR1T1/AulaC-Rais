@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\OTAVIOCAETANORIBEIRO\\.vscode\\AulaC-Rais\\NovaAula.csproj": {}
+    "C:\\Users\\OTAVIOCAETANORIBEIRO\\AulaC-Rais\\NovaAula.csproj": {}
   },
   "projects": {
-    "C:\\Users\\OTAVIOCAETANORIBEIRO\\.vscode\\AulaC-Rais\\NovaAula.csproj": {
+    "C:\\Users\\OTAVIOCAETANORIBEIRO\\AulaC-Rais\\NovaAula.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\OTAVIOCAETANORIBEIRO\\.vscode\\AulaC-Rais\\NovaAula.csproj",
+        "projectUniqueName": "C:\\Users\\OTAVIOCAETANORIBEIRO\\AulaC-Rais\\NovaAula.csproj",
         "projectName": "NovaAula",
-        "projectPath": "C:\\Users\\OTAVIOCAETANORIBEIRO\\.vscode\\AulaC-Rais\\NovaAula.csproj",
+        "projectPath": "C:\\Users\\OTAVIOCAETANORIBEIRO\\AulaC-Rais\\NovaAula.csproj",
         "packagesPath": "C:\\Users\\OTAVIOCAETANORIBEIRO\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\OTAVIOCAETANORIBEIRO\\.vscode\\AulaC-Rais\\obj\\",
+        "outputPath": "C:\\Users\\OTAVIOCAETANORIBEIRO\\AulaC-Rais\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
